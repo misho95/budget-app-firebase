@@ -26,22 +26,21 @@ const Header = () => {
             src="https://media.istockphoto.com/id/1460122390/photo/portrait-beauty-and-facial-with-a-black-woman-in-studio-to-promote-natural-skincare-or.webp?b=1&s=170667a&w=0&k=20&c=CDyXic0eRh3eeXVJSQXmxqXXM5h7TtalZe83WqFrd2Y="
             sx={{ width: 34, height: 34 }}
           />
-          <Link
-            to="/"
-            className="text-neutral-400 hover:text-neutral-300 flex "
-          >
-            <span className="material-symbols-outlined text-3xl">home</span>
-          </Link>
-          <Link to="/" className="text-neutral-400 hover:text-neutral-300 flex">
-            <span className="material-symbols-outlined text-3xl">
-              person_add
-            </span>
-          </Link>
+
           <Link to="/" className="text-neutral-400 hover:text-neutral-300 flex">
             <span className="material-symbols-outlined text-3xl">add_box</span>
           </Link>
           <Link to="/" className="text-neutral-400 hover:text-neutral-300 flex">
             <span className="material-symbols-outlined text-3xl">search</span>
+          </Link>
+          <Link
+            to="/"
+            className="text-neutral-400 hover:text-neutral-300 flex "
+          >
+            <span className="material-symbols-outlined text-3xl">Settings</span>
+          </Link>
+          <Link to="/" className="text-neutral-400 hover:text-neutral-300 flex">
+            <span className="material-symbols-outlined text-3xl">logout</span>
           </Link>
         </div>
       </div>
