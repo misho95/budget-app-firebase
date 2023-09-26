@@ -118,7 +118,7 @@ const HeaderStat = () => {
   const valueFormatter = (value: number) => `${value}`;
 
   return (
-    <div className="bg-neutral-500/50 rounded-lg flex justify-center items-center m-3 select-none">
+    <div className="bg-neutral-500/50 rounded-lg flex justify-center items-center m-3 select-none relative z-30">
       <BarChart
         dataset={dataset}
         xAxis={[{ scaleType: "band", dataKey: "month" }]}
